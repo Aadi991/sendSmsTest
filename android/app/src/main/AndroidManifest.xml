@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aadi.flutter.sms_test">
+    <uses-permission android:name="android.permission.SEND_SMS" />
    <application
         android:label="sms_test"
         android:name="${applicationName}"
